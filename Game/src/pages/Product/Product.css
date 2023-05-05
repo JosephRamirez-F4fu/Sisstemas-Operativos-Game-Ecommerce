@@ -1,0 +1,55 @@
+.ProductPage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  
+  .ProductImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  .ProductImages img {
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .ProductVideos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ProductVideos iframe {
+    margin-bottom: 20px;
+  }
+  
+  .ProductInfo {
+    margin-left: 50px;
+  }
+  
+  .ProductInfo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .ProductInfo p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ProductInfo button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

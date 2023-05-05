@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+
+body {
+    font-family: 'opens sans';
+}
+
+.login {
+    font-family: 'opens sans';
+    font-size: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6F2DBD; /* Morado oscuro */
+    padding: 1rem;
+}
+  
+.navbar-success{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+font-size: 2rem;
+font-weight: bold;
+color: #FFFFFF; /* Blanco */
+text-decoration: none;
+}
+
+.navbar-links {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.navbar-link {
+font-family: 'Franklin Gothic Medium';
+font-size: 1.5rem;
+font-weight: bold;
+color: #FFFFFF; /* Blanco */
+text-decoration: none;
+padding-right: 10px;
+margin-left: 2rem;
+transition: color 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+color: #D07CE1; /* Morado claro */
+}

@@ -1,0 +1,70 @@
+.App {
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.ContainerTitle {
+  color: #6F2DBD;
+  text-align: center;
+}
+
+.ProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: 2px solid #6F2DBD;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.ProfileImg {
+  height: 400px;
+}
+
+.ProfielDataConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ButtonContainer {
+  background-color: #6F2DBD;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ButtonContainer span{
+  color:white;
+}
+
+.ButtonContainer:hover {
+  background-color: #fff;
+  color: #6F2DBD;
+}
+
+.ButtonContainer:hover span{
+  color:black;
+}
+
